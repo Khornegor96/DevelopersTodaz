@@ -1,0 +1,177 @@
+/* CountryList.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.container li:hover {
+  background: #e0e0e0;
+}
+
+.link {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pageButton {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #0070f3;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.pageButton:hover {
+  background: #005bb5;
+}
+
+.disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.noResults {
+  color: #666;
+}
+
+.sortButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sortButton {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.sortButton.active {
+  background-color: #005bb5;
+}
+
+.countryList {
+  list-style: none;
+  padding: 0;
+}
+
+.countryItem {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #0070f3;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #005bb5;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pageButton {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0070f3;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.pageButton:hover:not(.disabled) {
+  background-color: #005bb5;
+}
+
+.pageButton.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pageInfo {
+  font-size: 1rem;
+  color: #333;
+}

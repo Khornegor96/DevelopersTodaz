@@ -1,0 +1,39 @@
+/* CountryInfo.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+/*   h1 {
+    color: #333;
+    text-align: center;
+  }
+   */
+  .flag {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bordersList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bordersList li {
+    background-color: #e0f7fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .chart {
+    margin-top: 20px;
+  }
+  
