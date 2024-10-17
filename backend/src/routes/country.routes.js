@@ -9,8 +9,7 @@ const router = express.Router();
 
 router.get("/available", getAvailableCountries);
 router.get("/:countryCode", getCountryInfo);
-router.get("/countryFlags", getCountryFlags)
-router.get("/countryPopulation", getCountryPopulation)
-
+router.get("/countryFlags", getCountryFlags);
+router.get("/countryPopulation", getCountryPopulation);
 
 module.exports = router;
